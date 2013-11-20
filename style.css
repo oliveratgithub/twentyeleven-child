@@ -1,0 +1,16 @@
+/*
+Theme Name:     Twenty Eleven Child
+Theme URI:      http://wordpress.org/extend/themes/twentyeleven
+Description:    Custom child theme for the Twenty Eleven theme
+Author:         Oliver <blog@raduner.ch>
+Author URI:     http://raduner.ch/blog/
+Template:       twentyeleven
+Version:        0.1.0
+*/
+@import url("../twentyeleven/style.css");
+
+.widget ul {
+	font-size: 15px;
+	margin: 0;
+	list-style: none;
+}
