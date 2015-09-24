@@ -3,9 +3,9 @@ Theme Name:     Twenty Eleven Child
 Theme URI:      http://wordpress.org/extend/themes/twentyeleven
 Description:    Custom child theme for the Twenty Eleven theme
 Author:         Oliver <blog@raduner.ch>
-Author URI:     http://raduner.ch/blog/
+Author URI:     https://github.com/oliveratgithub/twentyeleven-child
 Template:       twentyeleven
-Version:        0.1.0
+Version:        0.2.0
 */
 @import url("../twentyeleven/style.css");
 
@@ -13,4 +13,18 @@ Version:        0.1.0
 	font-size: 15px;
 	margin: 0;
 	list-style: none;
+}
+.entry-title,
+.entry-title a {
+	color: #1982d1;
+	text-decoration: none;
+}
+.entry-title a:hover,
+.entry-title a:focus,
+.entry-title a:active {
+	text-decoration: underline;
+}
+.entry-meta a {
+	font-weight: bold;
+	color: #000;
 }
